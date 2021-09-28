@@ -84,3 +84,7 @@ D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning P
 D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning Product\obj\Debug\Leaning Product.csproj.CopyComplete
 D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning Product\obj\Debug\Leaning Product.dll
 D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning Product\obj\Debug\Leaning Product.pdb
+D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning Product\bin\EntityFramework.dll
+D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning Product\bin\EntityFramework.SqlServer.dll
+D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning Product\bin\EntityFramework.xml
+D:\軟體專案\ASP_Learn_Product\My-ASP-Learn-Product\Leaning Product\Leaning Product\bin\EntityFramework.SqlServer.xml
