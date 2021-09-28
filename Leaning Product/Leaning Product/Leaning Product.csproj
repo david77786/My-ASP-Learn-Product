@@ -148,20 +148,35 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Model1DB.cs" />
+    <Compile Include="Models\Model_LDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model_LDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model_LDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model_LDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model_LDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model_LDB.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\MSreplication_options.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>Model_LDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\spt_fallback_db.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>Model_LDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\spt_fallback_dev.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>Model_LDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\spt_fallback_usg.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>Model_LDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\spt_monitor.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>Model_LDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\HomeService.cs" />
@@ -185,6 +200,16 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="Models\Model_LDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model_LDB.edmx</DependentUpon>
+      <LastGenOutput>Model_LDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Model_LDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model_LDB.edmx</DependentUpon>
+      <LastGenOutput>Model_LDB.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\Model1.edmx">
@@ -193,6 +218,13 @@
     </EntityDeploy>
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\Model_LDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model_LDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Model_LDB.edmx.diagram">
+      <DependentUpon>Model_LDB.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
